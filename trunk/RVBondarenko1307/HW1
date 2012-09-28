@@ -1,0 +1,72 @@
+<html>
+   <head>
+	<style type="text/css">
+
+		.block1
+		 {
+			position: relative;
+    			top: 160;
+    			left: 100;
+
+		}
+
+		.block2
+		 {
+			position: relative;
+    			top: 500;
+    			left: 100;
+
+		}
+
+		.block3
+		{
+			position: relative;
+    			top: 800;
+    			left: 50;
+
+		}
+	</style>
+   </head>
+
+   <body>
+
+	   <table border="0" cellspacing="0" cellpadding="2">
+		
+		<tr>
+			<td> <img src="1.jpg" width="200" height="200"> </td>
+			<td> <img src="2.jpg" width="200" height="200"> </td>
+			<td> <a href="http://physics.7bit.net.ru/"> <img src="3.jpg" width="200" height="200"> </a> </td>
+		</tr>
+
+		<tr>
+			<td> <img src="4.jpg" width="200" height="200"> </td>
+			<td> <img src="5.jpg" width="200" height="200"> </td>
+			<td rowspan ="3"> <img src="6.jpg" width="200" height="400"> </td>
+
+		</tr>
+
+		<tr>
+			<td> <img src="7.jpg" width="200" height="200"> </td>
+			<td> <img src="8.jpg" width="200" height="200"> </td>
+		</tr>
+
+
+       <div class="block1">
+             	<h1> HHHELP WORRDDD </h1> 
+       </div>
+
+ 	<div class="block2">
+		<d>Увлекательная игра-экскурсия</d> <p>«Петропавловка встречает малышей. <br><i>Классический маршрут экскурсии по Петропавловке, адаптированный для детей 1-4 классов. </i>
+		<u>Экскурсия строится в форме диалога, экскурсовод задает вопросы и помогает формулировать о</u>
+       </div>
+	
+       <div class="block3">
+		<input type="name" name="name" value="name"></input><br />
+		<input type="пароль" name="пароль" value="пароль"></input><br />
+		<input type="submit" name="зарегестрироваться" /></input><br />
+		</div>
+
+
+   </body>	
+
+</html>
