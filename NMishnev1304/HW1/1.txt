@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<div class="layer1">
+		<img src="yamaha-r1.jpg" width="100%" height= "100%" alt="" >
+
+		</div>
+
+
+<div class="text"></div>
+	<div class = "layer">
+     <frameset rows="80,*" cols="*">
+		<frame src="голова.html" name="topFrame" scrolling="no" noresize>
+		<frameset cols="200,*">
+			<frame src="списокг.html" name="leftFrame" scrolling="no" noresize>
+		</frameset>
+	</frameset>
+
+   </div>
+<div class="semiopacity">
+   <div class="transparent"></div>
+   <div class="text"></div>
+
+ BODY {
+		background: url(yamaha-r1.jpg) no-repeat;
+		background-size: 100%; 
+		
+}
+
+
+
+
+<html>
+ <head>
+  <title>"ЭРОНДОНДОН</title>
+ </head>
+ <div class="layer1">
+		<img src="yamaha-r1.jpg" width="100%" height= "100%" alt="" >
+         <span>
+		 <ol>
+			<li><p><a href="39TT.jpg"target="_blank">Давным давно</a></p></li>
+			<li><p><a href="400.jpg"target="_blank">Не так давно</a></p></li>
+			<li><p><a href="Jimmy-Guthrie-1933-Model-40-Norton.jpg"target="_blank">ЭРОН дон ДОН</a></p></li>
+			<li><p><a href="isle_of_man.jpg"target="_blank">Чоткий дерзкий</a></p></li>
+			<li><p><a href="146_1106+2011_isle_of_man_tt_wallpaper_images_25+.jpg"target="_blank">Пацан к успеху</a></p></li>
+
+		</ol>
+		</span>
+		</div>
+ 
+</html>
