@@ -1,0 +1,69 @@
+<html>
+<head> 
+  
+<style type="text/css">
+#layer3 {
+    position: absolute; /* Абсолютное позиционирование */
+    z-index: 3; /* Порядок слоев */
+	
+	left: 500px; /* Положение от левого края окна */
+    top: 600px;
+   }
+#layer1 {
+    z-index: 2; /* Порядок слоев */
+    position: absolute; /* Абсолютное позиционирование */
+	left: 300px; /* Положение от левого края окна */
+    top: 30px;
+   }
+ #layer2 {
+	width: 100%; /* Ширина слоя с фоном */
+    position: absolute; /* Абсолютное позиционирование */
+    z-index: 1; /* Порядок слоев */
+   }
+  p {
+  color: red;
+  }
+ 
+</style> 
+</head> 
+	<BODY>
+		<div id="layer2"> 
+			<img src="3.jpg" width="100%" alt="">
+		</div>
+		<div id="layer1">
+			<table border="0" cellpadding="6" cellspacing="1">
+				<tr>
+					<td><img src= "39TT.jpg" alt= "Изображение отсутствует" width= "200" height="100"/></td>
+					<td><img src= "400.jpg" alt= "Изображение отсутствует" width= "200" height="100"/>
+					<td rowspan="3"><img src= "gp.jpg" alt= "Изображение отсутствует" width= "200" height="370"/></td>
+				</tr>
+				<tr>
+					<td><img src="Jimmy-Guthrie-1933-Model-40-Norton.jpg" alt= "Изображение отсутствует" width= "200" height="100"/></td>
+					<td><img src= "isle_of_man.jpg" alt= "Изображение отсутствует" width= "200" height="100"/></td>
+				</tr>
+				<tr>
+					<td><img src= "146_1106+2011_isle_of_man_tt_wallpaper_images_25+.jpg" alt= "Изображение отсутствует" width= "200" 1eight="200"/></td>
+					<td><img src= "Maxxis_Isle_of_Man_TT_Poster_by_1967bantam.jpg" alt= "Изображение отсутствует" width= "200" 1eight="200"/></td>
+				</tr>
+			</table>
+		</div>
+		<br><br>
+		<div id="layer3">
+			<table border="0" >
+				<tr>
+					<td width="70" ><b><p>Имя: </p></b></td>
+					<td width="100" ><input type="text" name="user_name"></td>
+				</tr>
+				<tr>
+					<td width="70"><b><p>PIN: </p></b></td>
+					<td width="100"><input type="password" name="user_pass"></td>
+				</tr>
+				<tr height="40">
+					<td width="70"/>
+					<td width="100" align="center" valign="bottom"><input type="submit" name="submit" /></td>
+				</tr>
+		  </table>
+	    </div>
+		
+	</BODY>
+</html>
