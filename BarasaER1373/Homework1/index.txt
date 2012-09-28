@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+		<title>Сайт-галерея по производству упячек</title>
+	</head>
+	
+	<body>
+		<div id="header" style=" height:200px; color:black; text-align:center;">
+			<h1 style=" color:white;"><font size="20">Добро пожаловать на наш сайт.</font></h1>
+		</div>
+		
+	    <div id="body"  style=" color:black; text-align:center;">
+		  <iframe src="iframe.html" width="250" height="650" align="left" ></iframe>
+
+		 <h2 style="  color:yellow;"><font size="10">Вот некоторый из наших трололошек.</font></h1>
+
+		  <table width="80%" border="0" cellspacing="5" cellpadding="0" align="center">
+			<tr>
+				<td align="center"><img src="pictures/1.png" height="200" width="200"></img> </td>
+				<td align="center"><img src="pictures/2.png" height="200" width="200"></img> </td>
+				<td rowspan="3" align="center"><img src="pictures/gangnam-style.png" height="500" width="auto"></img></td>
+			<tr>
+				<td align="center"><img src="pictures/3.png" height="200" width="200"></img> </td>
+				<td align="center"><img src="pictures/4.png" height="200" width="200"></img> </td>
+			<tr>
+				<td align="center"><img src="pictures/5.png" height="200" width="200"></img> </td>
+				<td align="center"><img src="pictures/6.png" height="200" width="200"></img> </td>
+		  </table> 	
+		</div>
+
+ 		<h2 style="  color:yellow;"><font size="10">Если вам понравилось и вы зайдете еще предлагаем вам зарегистрироваться.</font></h1>
+
+		 <form>
+      			 Your name : <input type="text" name="yourname"><br>
+      			 Email &nbsp &nbsp &nbsp &nbsp    : <input type="text" name="email"><br>
+      			 <input type="checkbox" name="agree">I Agree with the terms and agreement<br>
+	 		 <input type="submit">
+		</form>   
+		
+	</body>
+
+</html>
