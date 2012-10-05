@@ -1,0 +1,17 @@
+td{
+	width:110px;
+	height:110px;
+	overflow: auto;
+}
+body {
+	background-image: url(pictures/bg/bg.jpg);
+}
+ul{
+	font-family: cursive;
+}
+li{
+	height:5%;
+}	
+p::first-letter{
+	color: red
+}

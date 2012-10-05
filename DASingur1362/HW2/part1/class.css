@@ -1,0 +1,55 @@
+.main{
+	min-width:600px;
+	height:110%;
+	position:absolute;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.forTable{
+	margin:auto;
+	width: 78%;
+	height:78%;
+	overflow: auto;
+}
+.cn{
+	overflow: auto;
+	width: 75%;
+	height: 90%;
+	position: relative;
+	right: 0px;
+	float:right;
+	border-radius:20px;
+	border: 3px outset gray;
+}
+.listFrame{
+	overflow: auto;
+	position: relative;
+	left: 0px;
+	width: 23%;
+	height: 90%;
+	float:left;
+	border: 3px outset gray;
+	border-radius:20px;
+	background-color:#d0f7ff;
+}
+.text{
+	font-size: 100%;
+}
+.header{
+	position:relative;
+	background:#c0ffc3;
+	bottom:10px;
+	border-radius:30px;
+	border: 1px outset blue;
+}
+.tit{
+	width:80%;
+	float:right;
+}
+.footer{
+	position:relative;
+	float: right;
+}
