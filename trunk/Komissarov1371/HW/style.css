@@ -1,0 +1,50 @@
+body {
+	background-image: url("lol.jpg");
+	background-position:50% 70%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% ;
+	}
+p{
+color:#CCFF66;
+}
+table{
+position:absolute;
+top:40%;
+left:38%;
+}
+#text{
+position:absolute;
+top:20%;
+left:38%;
+}
+
+
+#Zagolovok{
+position:absolute;
+top:1%;
+left:46%;
+font-size:23px;
+}
+#manu{
+position:absolute;
+top:10%;
+left:39%;
+font-size:23px;
+}
+#list{
+position:absolute;
+top:20%;
+left:10%;
+}
+#form{
+position:absolute;
+top:97%;
+left:20%;
+}
+footer{
+position:absolute;
+top:110%;
+right:5%;
+color:#CCFF66;
+}
