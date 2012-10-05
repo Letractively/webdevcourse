@@ -1,0 +1,97 @@
+#mainlayout {
+	width: 700px; 
+	margin: 0 auto; 
+	border: 1px solid; 
+	background-color: white;
+}
+
+#header {
+	font-size: 2.2em; 
+	text-align: center; 
+	margin: 10px;
+	padding: 10px; 
+	background: #8fa09b; 
+	color: #ffe; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+ul.css-menu-1 {
+list-style: none
+}
+
+ul.css-menu-1 li {
+display: inline
+}
+
+ul.css-menu-1 li a {
+font-family: Tahoma, Geneva, sans-serif; 
+text-decoration: none;
+background: #f0f0f0;
+font-weight: bold;
+color: black; 
+padding: 6px 10px 6px 10px
+}
+
+ul.css-menu-1 li a:hover {
+padding: 6px 10px 6px 10px;
+font-weight: bold;
+background: #cad3ec;
+color: white; 
+}
+
+ul.css-menu-1 li a.selected {
+background: #364e95
+}
+
+#sidebar {
+	width: 25%;
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	border: 4px double gray;
+	background-color: #f9f0f2;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+ 
+}
+
+#main {
+	width: 60%;
+	text-align: justify;
+	margin: 10px;
+	padding: 10px;
+	background: white;
+	margin-left: 35%;
+
+}
+
+#footer {
+	background: #8fa09b; 
+	color: #fff;
+	padding: 5px;
+	clear: left;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 50px 50px 0 0; 
+
+}
+
+ table {
+    -moz-user-select: -moz-none;  
+	-webkit-user-select: none;
+  	
+   }
+
+body {
+	background: url(images/back.jpg);
+	background-attachment: scroll;
+}
+
+ p:first-letter {
+		      font-size: 150%;
+      			color: red;
+    		  }
