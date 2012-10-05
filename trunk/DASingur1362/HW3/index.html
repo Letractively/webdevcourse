@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<script charset="UTF-8">
+			function move(){
+				var snusmum=new Snusmumrik();
+				snusmum.goToSnork();
+			}
+			function Mumi(){};
+			function Snork(){};
+			function Snusmumrik(){};
+			Snork.prototype=new Mumi();
+			Snusmumrik.prototype=new Mumi();
+			Snusmumrik.prototype.goToSnork=function(){
+				var Snus=document.getElementById("Snus");
+				Snus.style.margin='0%';
+			}
+		</script>
+		<style>
+			#Snus{
+				height: 20%;
+				//margin-bottom:80%;
+				margin-top:80%;
+			}
+			img{
+				border-radius: 100px;
+				border: 1px dashed black;
+			}
+			#button{
+				float:left;
+			}
+			#main{
+				position:relative;
+				margin: 0 20% 0 20%;
+				height: 600px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<div id="Snork">
+				<img width="200" height="150" src="image/snork.jpg" align="middle"></img>
+			</div>
+			<div id="Snus">
+				<img width="200" height="150" src="image/snus.jpg"></img>
+			</div>
+		</div>
+		<form>
+			<input type="button" id="button" value="Пойти в гости" onclick="javascript:move()">
+			<input type="button" id="button" value="Привет" onclick="alert('Привет мир')">
+		</form>
+	</body>
+		
+</html>
