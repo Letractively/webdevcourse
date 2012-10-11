@@ -1,0 +1,55 @@
+
+<html>
+	<head>
+		<title>HW 3 Works with javascript</title>
+		<script>
+		
+		function resetpos() 
+			{
+			document.getElementById("snufkin").style.top = '300px';
+			document.getElementById("snufkin").style.left = '0px'
+			}
+
+		function move() //Moves image to the right 
+
+			{
+			document.getElementById("snufkin").style.top = '300px';
+			document.getElementById("snufkin").style.left = '800px';
+			}
+
+		function hWorld()
+			{
+				
+				var x;
+				var y=confirm("Hello world..!! Are you happy today?");
+				if (y==true)
+				 {
+				   x="Good, keep your happiness and seize the day!";			
+				   }
+				   else
+				   {
+				    x="Dont worry, everything is gonna be all right :)";
+					}
+			document.getElementById("ask").innerHTML=x;
+			}
+		</script>
+	</head>
+	
+	<body>
+	<style>
+		DIV.snufkin { position:absolute; TOP:300px; LEFT:0px; }
+		DIV.snork { position:absolute; TOP:300px; LEFT:1000px; }	
+	</style>
+	
+	<h1>Moomintroll</h1>
+	<p>When Snufkin fall in love with Snork</p>
+	
+	<p id="ask"></p>
+	<button onclick="hWorld()"> Hello world </button>
+	 
+	<div class="snork"><img src="images/snorkmaiden.jpg" height="200px"/></div <!image> 
+	<div id="snufkin" class="snufkin"><img src="images/snufkin.png" height="200px"/></div <!image>
+		<button type="button" onclick = "resetpos()">Reset image</button> 
+		<button type="button" onclick = "move()">image to the right!</button> 
+	</body>
+</html>
