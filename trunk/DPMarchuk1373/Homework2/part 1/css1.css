@@ -1,0 +1,50 @@
+body {
+color: black;
+font-size: 15px;
+font-family: comic sans MS;
+position:relative;
+height:100%;
+margin:0 0;
+}
+
+a {
+color: blue;
+font-family: comic sans MS;
+font-size: 25px;
+}
+a:hover {
+color: red;
+font-size: 30px;
+}
+h1 {
+font-size: 60px;
+color: white;
+}
+p::first-letter {
+color: red;
+font-size: 10px;
+}
+p::first-letter {
+font-size: 30px;
+}
+#head{
+height:100px;
+width:100%;
+margin: auto;
+ background:#fc1 url(PICTURES/head.jpg) repeat; 
+}
+#menu{
+height:50px;
+width:30%;
+margin: auto;
+ background:#fc1 url(PICTURES/menu.gif) repeat; 
+}
+
+#main-div
+ {  
+ margin: auto;
+overflow: auto; 
+ padding-left: 10px;
+ background:#fc1 url(PICTURES/background.jpg) repeat; 
+ }
+ 
