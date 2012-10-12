@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css1.css">
+		<style>
+		@font-face
+		{
+			font-family: Pompadur;
+			src: url(fonts/ttf1.TTF);
+		}
+		h1
+			{
+				font-family: Pompadur;
+				text-align: center;
+				text-valign: center;
+				color: #d74631;
+			}
+		
+		a 
+		{
+			color: #f5hha6;
+		}
+		a:hover {
+			font-size: 20px;
+		}
+		p::first-letter {
+			font-size: 20px;
+			color: red;
+		}
+		</style>
+		<style > @import "css2.css" ; </style>
+	</head>
+	<body>
+		<div id="wrapper"><!-- Общий div -->
+			<div id="top"><!-- Заголовок -->
+				<div id="img">
+					<img src= "img/log.jpg" alt= "Изображение отсутствует" width= "50px"/>
+				</div>
+				<div id="h1">
+					<h1>Галерея</h1>
+				</div>
+			</div>
+			<div id="ooo">
+				<div id="left"><!-- Список ссылок на картинки -->
+					<ul>
+						<li><a href="img/2.jpg" target="_blank" >Картинка 1</a></li>
+						<li><a href="img/3.jpg" target="_blank" >Картинка 2</a></li>
+						<li><a href="img/4.jpg" target="_blank" >Картинка 3</a></li>
+						<li><a href="img/1.jpg" target="_blank" >Картинка 4</a></li>
+						<li><a href="img/9.jpg" target="_blank" >Картинка 5</a></li>
+						<li><a href="img/7.jpg" target="_blank" >Картинка 6</a></li>
+						<li><a href="img/.jpg" target="_blank" >Картинка 7</a></li>
+					</ul>
+				</div>
+				<div id="main"><!-- Основной контент -->
+					<div id="nt"><!-- Название текста -->
+						<h2>Текст</h2>
+					</div>
+					<div id="tt"><!-- Текст -->
+						<p>Здесь могла быть ваша реклама.</p>
+						<p>И здесь тоже.</p>
+					</div>
+					<div align="center" id="tb"><!-- Таблица -->
+						<table border="0" cellpadding="7" cellspacing="0">
+							<tr>
+								<td><img src= "img/2.jpg" alt= "Изображение отсутствует" width= "150px"/></td>
+								<td><img src= "img/3.jpg" alt= "Изображение отсутствует" width= "150px"/>
+								<td rowspan="3"><img src= "img/10.jpg" alt= "Изображение отсутствует" width= "150px" height="292"/></td>
+							</tr>
+							<tr>
+								<td><img src="img/4.jpg" alt= "Изображение отсутствует" width= "150px"/></td>
+								<td><img src= "img/1.jpg" alt= "Изображение отсутствует" width= "150px"/></td>
+							</tr>
+							<tr>
+								<td><img src= "img/9.jpg" alt= "Изображение отсутствует" width= "150px"/></td>
+								<td><img src= "img/7.jpg" alt= "Изображение отсутствует" width= "150px"/></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="footer"><!-- Футер -->	
+				<br>
+				<table border="0" align="center" >
+					<tr>
+						<td width="70"><b>Логин:</b></td>
+						<td width="100" ><input type="text" name="user_name"></td>
+					</tr>
+					<tr>
+						<td width="70"><b>Пароль:</b></td>
+						<td width="100"><input type="password" name="user_pass"></td>
+					</tr>
+					<tr height="40">
+						<td width="70"/>
+						<td width="100" align="center" valign="bottom"><input type="submit" name="submit" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
