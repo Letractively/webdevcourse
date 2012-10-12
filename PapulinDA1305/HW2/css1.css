@@ -1,0 +1,82 @@
+body {
+color: black;
+font-size: 15px;
+font-family: Verdana;
+}
+a {
+color: #f5hha6;
+font-family: Courier;
+}
+a:hover {
+font-size: 20px;
+}
+h1 {
+font-size: 30px;
+}
+#p-one {
+font-size: 20px;
+}
+#a-one {
+color: gray;
+}
+.link-one-and-p-one {
+color: red !important;
+}
+body {
+position:relative;
+height:100%;
+background: #999;
+}
+#wrapper {
+position:relative;
+min-height:100%;
+width:800px;
+margin: auto;
+background: #fff;
+}
+#top {
+border-radius: 20px 20px 20px 20px;
+position:relative;
+height:80px;
+margin: 20px;
+background: #bbb;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+}
+#menu{
+border-radius: 5px 5px 5px 5px;
+position:relative;
+height: 20px;
+margin: 20px;
+background: #bbb;
+text-align: center;
+}
+#main {
+border-radius: 20px 20px 20px 20px;
+position:relative;
+float: right;
+height:475px;
+width: 75%;
+margin-right: 20px;
+background: #bb0;
+}
+#left {
+border-radius: 5px 5px 5px 5px;
+position:relative;
+float: left;
+height:475px;
+width:150px;
+margin-left: 20px;
+background: #ccc;
+}
+#table {
+border-radius: 20px 20px 20px 20px;
+position:relative;
+height:auto;
+width: 95%;
+margin: 20px;
+margin-left: 15px;
+background: #bbb;
+}
