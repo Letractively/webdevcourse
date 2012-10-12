@@ -1,0 +1,92 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css1.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="top">
+<h1>Web development course</h1>
+</div>
+<div id="main">
+<div id="left">
+<a href="link1.html" class="link-one-and-p-one" id="aone">
+wsedfwe</a></br>
+<a href="link2.html">erwer</a>
+<p class="link-one-and-p-one" id="p-one">Lorem ipsum dolor
+sit amet</p>
+<p>Je ne veux pas etudier css<p></div>
+<div id="main-main">
+<p>
+Web development course for beginners based on the following technologies: HTML5 CSS
+JavaScript?: kineticjs, jquery PHP, SQL XTemplate, XSLT CMS
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+body {
+color: black;
+font-size: 15px;
+font-family: Verdana;
+}
+a {
+color: #f5hha6;
+font-family: Courier;
+}
+a:hover {
+font-size: 20px;
+}
+h1 {
+font-size: 30px;
+}
+p::first-letter {
+font-size: 10px;
+}
+p::first-letter {
+font-size: 30px;
+}
+#p-one {
+font-size: 20px;
+}
+#a-one {
+color: gray;
+}
+.link-one-and-p-one {
+color: red !important;
+}
+body {
+position:relative;
+height:100%;
+background: #999;
+}
+#wrapper {
+min-height:100%;
+width:700px;
+margin: auto;
+background: #fff;
+}
+#top {
+height:80px;
+width:95%;
+margin: auto;
+background: #bbb;
+text-align: center;
+padding-top: 20px;
+}
+#main {
+height:80%;
+top: 100px;
+width:95%;
+margin: auto;
+background: #bb0;
+}
+#left {
+float: left;
+height:100%;
+width:150px;
+background: #ccc;
+}
+#main-main {
+height:100%;
+}

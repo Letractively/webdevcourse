@@ -1,0 +1,5 @@
+/*
+url(imaga/imperia.jpg) no-repeat;
+-moz-background-size: 100%; /* Firefox 3.6+ */
+/*-webkit-background-size: 100%; 
+background-size: 100%; /* Современные браузеры */
