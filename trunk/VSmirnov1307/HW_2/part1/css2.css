@@ -1,0 +1,29 @@
+#tb{
+width:95%;
+margin: 5%;
+}
+#tt{
+text-indent: 20px;
+width: auto;
+}
+#nt{
+text-align: center;
+width: auto;
+}
+
+#img
+{
+	position: relative;
+	left: 20px;
+	top: 10px;
+	width: 55px;
+	float: left ;
+}
+#h1
+{
+	position: relative;
+	width: 650px;
+	float:right;
+	right: 20px;
+}
+
