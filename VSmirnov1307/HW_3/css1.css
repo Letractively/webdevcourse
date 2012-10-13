@@ -11,6 +11,11 @@ body
 	position:relative;
 	top: 10px;
 }
+input
+{
+	width:150px;
+	text-align:center;
+}
 
 div#snork img
 {
