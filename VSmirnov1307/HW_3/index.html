@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css1.css">
+		<script type="text/javascript">
+			function put()
+			{
+				var pr = document.getElementById ('pr');
+				if(pr.value=="    Сказать   привет    ")
+				{
+					document.getElementById('text2').innerHTML="<img id='text1' src= \"img/1.jpg\" alt= \"Изображение отсутствует\" height= \"43px\"/>";
+					pr.value="       Замолчать          ";
+				}
+				else
+				{
+					document.getElementById('text2').innerHTML="<text2.height='43px'/>";
+					pr.value="    Сказать   привет    ";
+				}
+			}
+			function move()
+			{
+				var snus = document.getElementById ('snus');
+				var pg = document.getElementById ('pg');
+				if(snus.style.left=='540px')
+				{
+					snus.style.left='30px';
+					pg.value="Пойти в гости к снорк";
+				}
+				else
+				{
+					snus.style.left='540px';
+					pg.value="      Пойти   домой     ";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div>
+			<div id="snus"> <!-- Снусмумрик -->
+				<div id="text2">
+				</div>
+				<img id="img1" src= "img/Снусмумрик.jpg" alt= "Изображение отсутствует" height= "150px"/>
+				<form id="key">
+					<input id='pg' type="button" value="Пойти в гости к снорк" align='left' onclick="move()"/>
+					<input id='pr' type="button" value="    Сказать   привет    " align='left'  onclick="put()"/>
+				</form>
+			</div>
+			<div id="snork"> <!-- Снорк -->
+				<img src= "img/Снорк.jpeg" alt= "Изображение отсутствует" height= "150px"/>
+			</div>
+		</div>
+	</body>
+</html>
