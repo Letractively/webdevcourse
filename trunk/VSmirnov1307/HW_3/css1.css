@@ -1,0 +1,52 @@
+body
+	{
+		position:relative;
+		height:100%;
+		width: 95%;
+		background: #ffe;
+	}
+	
+#key
+{
+	position:relative;
+	top: 10px;
+}
+
+div#snork img
+{
+	border-radius: 40px;
+	border: 1px dashed black;
+}
+#img1
+{
+	border-radius: 40px;
+	border: 1px dashed black;
+	position:relative;
+	float:left;
+}
+#snus
+{
+	position:relative;
+	left:30px;
+	float:left;
+	width: 190px;
+}
+#snork
+{
+	position:relative;
+	left: 600px;
+	top: 43px;
+	float:left:;
+}
+#text1
+{
+	position:relative;
+	float:left;
+	height:43px;
+	left:50px;
+}
+#text2
+{
+	position:relative;
+	height:44px;
+}
