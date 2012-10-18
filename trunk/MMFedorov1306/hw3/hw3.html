@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Тролли</title>
+</head>
+
+<body>
+<div id="img1" style = "position:absolute; top:20px; left: 20px;" >
+	<img src="snus2.gif" >
+</div>
+<div id="img1" style = "position:absolute; top:20px; left: 250px;" >
+	<img src="maiden.gif" >
+</div>
+<input type = "button" value="Пойдем" onClick ="ComeOn()" style = "position:absolute; top:250px; left: 20px;">
+<input type = "button" value="Монолог" onClick ="Say()" style = "position:absolute; top:250px; left: 150px;">
+<script type="text/javascript">
+function ComeOn()
+{
+	document.getElementById ('img1').style.left = '140px';
+}
+function Say() {
+	alert("Hello, world!");	
+}
+</script>
+</body>
+</html>
