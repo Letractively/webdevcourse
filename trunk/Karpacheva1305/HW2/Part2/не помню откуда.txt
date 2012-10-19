@@ -1,0 +1,26 @@
+не помню откуда
+
+
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+color: #74A6F8;
+display: block;
+font-family: Calibri, sans-serif;
+font-size: 20px;
+font-weight: bold;
+height: 24px;
+left: 214px;
+position: relative;
+text-align: -webkit-left;
+top: 70px;
+width: 820px;
+Styles
+:active	:hover
+:focus	:visited
