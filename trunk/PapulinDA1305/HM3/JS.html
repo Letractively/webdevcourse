@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css1.css">
+		<script type="text/javascript">
+		 function put()
+			{
+				var rb = document.getElementById ('rb');
+				if(rb.value=="Разбить бутылку о борт")
+				{
+					document.getElementById('text2').innerHTML="<img style='position:relative; float:left; height:43px; left:50px;' src= \"Helloworld.jpg\" alt= \"Изображение отсутствует\" height= \"43px\"/>";
+					rb.value="Не попал";
+				}
+				else
+				{
+					document.getElementById('text2').innerHTML="<text2.height='43px'/>";
+					rb.value="Разбить бутылку о борт";
+				}
+			}
+			function move()
+			{
+				var boat = document.getElementById ('boat');
+				var pg = document.getElementById ('pg');
+				if(boat.style.left=='540px')
+				{
+					boat.style.left='30px';
+					pg.value="Пойти в гости к айсбергу";
+				}
+				else
+				{
+					boat.style.left='540px';
+					pg.value="      Поплыть домой    ";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div>
+			<div id="boat"> 
+				<div id="text2">
+				</div>
+				<img id="img1" src= "x_eaca6af9.jpg" height= "150px"/>
+				<form id="key">
+					<input id='pg' type="button" value="Пойти в гости к айсбергу"   align='left' onclick="move()"/>
+					<input id='rb' type="button" value="Разбить бутылку о борт"  align='left'  onclick="put()"/>
+				</form>
+			</div>
+			<div id="iceberg"> 
+				<img src= "tip_of_the_iceberg.jpg" height= "150px"/>
+			</div>
+		</div>
+	</body>
+</html>

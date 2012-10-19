@@ -1,0 +1,45 @@
+body
+	{
+		position:relative;
+		height:100%;
+		width: 95%;
+		background: #ffa;
+	}
+	
+#key
+{
+	position:relative;
+	top: 10px;
+}
+input
+{
+	width:200px;
+	text-align:center;
+}
+
+#boat
+{
+	position:relative;
+	left:30px;
+	float:left;
+	width: 190px;
+}
+#iceberg
+{
+	position:relative;
+	left: 600px;
+	top: 43px;
+	float:left:;
+}
+#text1
+{
+	position:relative;
+	float:left;
+	height:43px;
+	left:50px;
+}
+#text2
+{
+	position:relative;
+	height:44px;
+}
