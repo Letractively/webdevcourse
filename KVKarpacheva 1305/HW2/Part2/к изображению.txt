@@ -1,0 +1,327 @@
+
+Русь матушка
+
+element.style {
+color: #74A6F8;
+font-size: 20px;
+font-weight: bold;
+position: relative;
+left: 214px;
+top: 70px;
+}
+Matched CSS Rules
+user agent stylesheetdiv {
+display: block;
+}
+Inherited from center
+user agent stylesheetcenter {
+text-align: -webkit-center;
+}
+Inherited from body#gsr
+body, html {
+font-size: small;
+}
+body {
+color: #231CDB;
+}
+body, td, a, p, .h {
+font-family: Calibri,sans-serif;
+}
+Inherited from html
+body, html {
+font-size: small;
+}
+
+
+
+
+GOOGLE
+
+
+
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: 275px 95px;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url(http://www.google.ru/images/srpr/logo3w.png);
+background-origin: padding-box;
+background-size: 275px 95px;
+color: #231CDB;
+direction: ltr;
+display: block;
+font-family: Calibri, sans-serif;
+font-size: 13px;
+height: 95px;
+text-align: -webkit-left;
+unicode-bidi: embed;
+width: 820px;
+Styles
+:active	:hover
+:focus	:visited
+element.style {
+background: url(images/srpr/logo3w.png) repeat-x;
+background-size: 275px 95px;
+height: 95px;
+width: 820px;
+}
+Matched CSS Rules
+div[Attributes Style] {
+direction: ltr;
+unicode-bidi: embed;
+text-align: -webkit-left;
+}
+user agent stylesheetdiv {
+display: block;
+}
+Inherited from center
+user agent stylesheetcenter {
+text-align: -webkit-center;
+}
+Inherited from body#gsr
+body, html {
+font-size: small;
+}
+body {
+color: #231CDB;
+}
+body, td, a, p, .h {
+font-family: Calibri,sans-serif;
+}
+Inherited from html
+body, html {
+font-size: small;
+
+
+
+
+
+Верхнее меню
+
+
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+color: #231CDB;
+display: block;
+font-family: 'Times New Roman', serif;
+font-size: 25px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: 50px;
+line-height: 50px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: static;
+top: auto;
+white-space: pre;
+width: 1079px;
+z-index: auto;
+Styles
+:active	:hover
+:focus	:visited
+element.style {
+}
+Matched CSS Rules
+.gbtc, .gbmc, .gbmcc {
+display: block;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+h1, ol, ul, li {
+margin: 0;
+padding: 0;
+}
+user agent stylesheetol {
+display: block;
+list-style-type: decimal;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+Inherited from div#gbz
+#gbz, #gbg {
+white-space: pre;
+}
+Inherited from div#gb.gbes
+#gb {
+font: 25px/50px Times New Roman ,serif;
+}
+Inherited from body#gsr
+body, html {
+font-size: small;
+}
+body {
+color: #231CDB;
+}
+body, td, a, p, .h {
+font-family: Calibri,sans-serif;
+}
+Inherited from html
+body, html {
+font-size: small;
+
+
+
+
+КНОПОЧКИ(2-ое изображение)
+
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+-webkit-border-image: none;
+-webkit-box-align: stretch;
+-webkit-box-shadow: none;
+-webkit-user-select: none;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: #1313E2;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-left-color: #1313E2;
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: #1313E2;
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: #1313E2;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-style: none;
+border-top-width: 0px;
+box-shadow: none;
+box-sizing: content-box;
+color: #1313E2;
+cursor: default;
+display: inline;
+font-family: Arial, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: bold;
+height: auto;
+letter-spacing: normal;
+line-height: 27px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+max-width: none;
+min-width: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: static;
+text-align: center;
+text-decoration: none;
+text-indent: 0px;
+text-shadow: none;
+text-transform: none;
+top: auto;
+vertical-align: top;
+white-space: nowrap;
+width: auto;
+word-spacing: 0px;
+Styles
+:active	:hover
+:focus	:visited
+element.style {
+}
+Matched CSS Rules
+#gbqfsa, #gbqfsb {
+font: bold 20px/27px Arial,sans-serif !important;
+vertical-align: top;
+}
+Inherited from button#gbqfba.gbqfba.gbqfba-hvr
+.gbqfba-hvr, .gbqfba-hvr:active, .gbqfbb-hvr, .gbqfbb-hvr:active {
+color: #1BD5DD !important;
+}
+.gbqfba, .gbqfbb {
+color: #1313E2 !important;
+font-size: 40px;
+}
+.gbqfb, .gbqfba, .gbqfbb {
+cursor: default !important;
+font-weight: bold;
+line-height: 20px;
+text-align: center;
+}
+user agent stylesheetinput[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+text-align: center;
+cursor: default;
+color: buttontext;
+padding: 2px 6px 3px;
+border: 2px outset buttonface;
+}
+user agent stylesheetinput, textarea, keygen, select, button, isindex {
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+text-align: -webkit-auto;
+}
+Inherited from div#gbqfbwa.jsb
+#gbqfbwa {
+text-align: center;
+}
+Inherited from form#gbqf
+#gbqf {
+white-space: nowrap;
+}
+Inherited from div#gbq2.gbt.gbqfh
+.gbt {
+line-height: 50px;
+}
+Inherited from div#gbq
+#gbq, #gbu {
+white-space: nowrap;
+}
+Inherited from div#gb.gbesi
+#gb {
+font: 20px/50px Arial,sans-serif;
+}
+Inherited from body#gsr
+body, html {
+font-size: small;
+}
+body {
+color: #222;
+}
+body, td, a, p, .h {
+font-family: arial,sans-serif;
+}
+Inherited from html
+body, html {
+font-size: small;
+}
