@@ -11,7 +11,8 @@ p{
 color:#4b0082;
 }
 a {
-color: #913e93
+color: #913e93;
+
 }
 a:hover {
 font-size: 20px;
@@ -28,6 +29,24 @@ font-size: 10px;
 }
 p::first-letter {
 font-size: 30px;
+color: #00008B;
+}
+#td-one{
+background:#ffdb58!important;
+margin:auto;
+overflow: auto;
+}
+td{
+background: #ff7f50;
+border: 1px solid #333;
+padding: 5px;
+margin:auto;
+overflow: auto;
+}
+#td-foot{
+background: #993366;
+width:70px;
+height:10px;
 }
 #p-one {
 font-size: 20px;
@@ -40,31 +59,46 @@ color: gray;
 .link-one-and-p-one {
 color: red!important;
 }
-#913e93
+
 body {
 position:relative;
 height:100%;
-background: #afeeee;
-}
-#taibl{
 
 }
+#kar{
+left:20px;
+position:relative;
+}
+
+#taibl{
+overflow: auto;  
+table-layout:auto;
+height:80%;
+width:80%;
+border-radius: 20px 20px 20px 20px;
+background: #993366;
+float: center;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 1%;
+}
+
 #wrapper {
 
-min-height:100%;
-width:80%;
+height:800px;
+width:85%;
 margin: auto;
-background: #fff;
+background:url(99.jpg) repeat-y;
 }
 #top {
 border-radius: 20px 20px 20px 20px;
 height:80px;
 width:95%;
-margin-right: 20px;
-margin-left: 20px;
-margin-top: 20px;
-margin-bottom: 20px;
+margin: 20px;
 background: #fdeaa8;
+position:relative;
 text-align: center;
 padding-top: 20px;
 }
@@ -74,10 +108,21 @@ position:relative;
 height:50px;
 width: 90%;
 background: #993366;
-margin: auto;
+margin: 20px 20px;
 text-align: center;
 float: center;
 }
+
+#menu{
+padding: 2.5%;
+height:80px;
+width:91%;
+border-radius: 20px 20px 20px 20px;
+background:  #fdeaa8;
+margin: auto;
+float: center;
+}
+
 #text{
 border-radius: 50px 50px 50px 50px;
 position:relative;
@@ -89,10 +134,10 @@ text-align: center;
 float: center;
 }
 #main {
-overflow: auto;
+overflow: auto;     
 border-radius: 20px 20px 20px 20px;
 position:relative;
-height:80%;
+height:75%;
 width: 75%;
 float: right;
 top: 20px;
@@ -107,9 +152,10 @@ margin-left: 20px;
 top: 20px;
 float: left;
 height:80%;
-width:200px;
+width:17%;
 background: #ebc2af;
 }
+
 #main-main {
 height:100%;
 }
