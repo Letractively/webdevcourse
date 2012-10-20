@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+		#snu	{
+				position:absolute;
+				top:50px;
+				left:50px;
+				}
+		#snork	{
+				position:absolute;
+				top:50px;
+				left:250px;
+				}
+		</style>
+		<script>		
+			function move() {
+				var el=document.getElementById("snu");
+				var left = 50; // начальное значение
+				function frame() { // функция для отрисовки
+					left++;
+					el.style.left = left + 'px' 
+					if (left == 230) { 
+						clearInterval(timer); // завершить анимацию
+					}
+				}
+				var timer = setInterval(frame, 10) // рисовать каждые 10мс
+			}
+
+		</script>
+	</head>
+	<body>
+		<input type="button" value="СОЖРАТЬ ПРИВИДЕНИЕ!!!" onClick="move()"></input>
+		<div id="snork"><img src="http://1.bp.blogspot.com/-ps6LnKu_rBM/Tu1HE83a5GI/AAAAAAAAAxo/NNgBqlnFWkc/s45/PacManGhost1.png"></div>
+		<div id="snu"><img src="http://www.cableguyzero.com/Pictures/Website%20Images/PacmanAni.gif"></div>
+		
+	</body>
+</html>
