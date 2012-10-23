@@ -1,0 +1,142 @@
+<html>
+<head>
+<script type="text/javascript">
+function validateForename(form) {
+Ctrl = form.forename;
+if (Ctrl.value == "") {
+       validatePrompt (Ctrl, "Введите имя")
+       return (false);
+} else
+       return (true);
+}
+function validateSurname(form) {
+Ctrl = form.surname;
+if (Ctrl.value == "") {
+       validatePrompt (Ctrl, "Введите фамилию")
+       return (false);
+} else
+       return (true);
+}
+function validateUsername(form) {
+Ctrl = form.username;
+if (Ctrl.value == "") {
+ validatePrompt (Ctrl, "Введите имя пользователя")
+       return (false);}
+else {
+if (Ctrl.value.length <5) {
+       validatePrompt (Ctrl, "В имени пользователя должно быть не менее 5 символов.")
+       return (false);}
+else {
+if (/[^a-zA-Z0-9_-]/.test(Ctrl.value)) {
+       validatePrompt (Ctrl, "В имени пользователя разрешены только a-z, A-Z, 0-9, - и _.\n")
+       return (false);}
+	   else 
+	   return (true);
+	   }}
+}
+function validatePassword(form) {
+Ctrl = form.password;
+if (Ctrl.value == "") {
+       validatePrompt (Ctrl, "Не введен пароль")
+	   return (false);}
+	 else {
+	 if (Ctrl.value.length <6) {
+       validatePrompt (Ctrl, "В пароле должно быть не менее 6 символов.\n")
+       return (false);}
+	    else
+       return (true);
+}}
+
+function validateAge(form) {
+Ctrl = form.age;
+if (isNaN(Ctrl.value)) {
+       validatePrompt (Ctrl, "Не введен возраст")
+	   return (false);}
+else {
+if (Ctrl.value<7 || Ctrl.value> 110){
+return "Возраст должен быть между 7 и 110.\n"
+}
+else
+       return (true);
+}
+}
+
+function validateEmail(form) {
+Ctrl = form.email;
+if(Ctrl.value=="") {
+validatePrompt (Ctrl, "Не введен электронный адрес")
+	   return (false);
+	   }
+else {
+if ( !((Ctrl.value.indexOf("." > 0) && (Ctrl.value.indexOf("@") > 0)) || /[^a-zA-z0-9.@_-]/.test(Ctrl.value))){
+validatePrompt (Ctrl, "Электронный адрес имеет неверный формат")
+	   return (false);}
+	   else
+       return (true);
+}
+}
+function runSumbit(form, button){
+if (!validateForename(form)) return;
+if (!validateSurname(form)) return;
+if (!validateUsername(form)) return;
+if (!validatePassword(form)) return;
+if (!validateAge(form)) return;
+if (!validateEmail(form)) return;
+document.location.href = "troll.html";
+return;
+}
+
+function validatePrompt (Ctrl, PromptStr) {
+alert (PromptStr)
+Ctrl.focus();
+return;
+}
+</script>
+<style>.signup {border: 4px solid #E2281B;
+font: normal 15 px helvetica; font-weight: bold;
+color:#AFBAFF;
+position: fixed; top: 25%;left: 36%;}
+</style>
+<style type = "text/css">
+body {
+    background:#C1FFC7;
+	}
+</style>
+</head>
+
+<body>
+<FORM NAME="test" ACTION="http:" METHOD=GET>
+<table class="signup" border="0" cellpadding="2"
+  cellspacing="5" bgcolor="#BE1E6E" >
+<th colspan="2" align="center">Регистрационная форма</th>
+<tr><td>Имя </td><td><input type="text" maxlength="32" name ="forename"><td></tr>
+<tr><td>Фамилия</td><td><input type="text" maxlength="32" name ="surname"></td></tr>
+<tr><td>Ник</td><td><input type="text" maxlength="16" name ="username"></td></tr>
+<tr><td>Пароль</td><td><input type="text" maxlength="12" name ="password"></td></tr>
+<tr><td>Возраст</td><td><input type="text" maxlength="5" name ="age"></td></tr>
+<tr><td>Электронный адрес</td><td><input type="text" maxlength="64" name ="email"></td></tr>
+<tr><td  colspan="2" align="center"><INPUT TYPE="button" NAME="Submit" VALUE="Зарегистрироваться"
+       onClick="runSumbit(this.form, this)"></td></tr>
+	   
+</FORM>
+</body>
+</html>
+
+	   
+
+
+
+
+
+
+	   
+
+	   
+
+
+
+
+
+
+
+
