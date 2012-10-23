@@ -1,0 +1,61 @@
+.main{
+	min-width:200px;
+	height:100%;
+	position:absolute;
+	width: 80%;
+	margin: 0 10% 0 10%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.forTable{
+	margin:auto;
+	width: 98%;
+	height:98%;
+	overflow: auto;
+}
+.cn{
+	overflow: auto;
+	width: 75%;
+	height: 90%;
+	position: relative;
+	right: 0px;
+	float:right;
+	border-radius:20px;
+	border: 3px outset gray;
+	background-color:#A294B1;
+}
+.listFrame{
+	overflow: auto;
+	position: relative;
+	left: 0px;
+	width: 23%;
+	height: 90%;
+	float:left;
+	border: 3px outset gray;
+	border-radius:20px;
+	background-color:#A294B1;
+}
+.text{
+	font-size: 100%;
+	color: white;
+}
+.text2{
+	font-size: 200%;
+	color: white;
+}
+.header{
+	position:relative;
+	bottom:10px;
+	border-radius:30px;
+	border: 1px outset gray;
+	background-color:#A294B1;
+}
+.tit{
+	width:80%;
+	float:right;
+}
+.footer{
+	position:relative;
+	float: right;
+}
