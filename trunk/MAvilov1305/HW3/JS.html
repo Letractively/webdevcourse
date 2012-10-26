@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css1.css">
+		<script type="text/javascript">
+			function move()
+			{
+				var boat = document.getElementById ('boat');
+				var pg = document.getElementById ('pg');
+				if(boat.style.left=='540px')
+				{
+					boat.style.left='30px';
+					pg.value="Пойти котэ к рыбе";
+				}
+				else
+				{
+					boat.style.left='540px';
+					pg.value="      Уйти котэ от рыбы    ";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div>
+			<div id="boat"> 
+				<div id="text2">
+				</div>
+				<img id="img1" src= "kot.jpg" height= "150px"/>
+				<form id="key">
+					<input id='pg' type="button" value="Пойти котэ к рыбе"   align='left' onclick="move()"/>
+				</form>
+			</div>
+			<div id="iceberg"> 
+				<img src= "riba.jpg" height= "150px"/>
+			</div>
+		</div>
+	</body>
+</html>
