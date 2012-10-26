@@ -1,0 +1,82 @@
+<html>
+<head>
+	<script src="kinetic-v4.0.1.js"></script>
+	<script>
+		var path ="M 22,10 C 32.5,11 38.5,18 38,39 L 15,39 C 15,30 25,32.5 23,18";
+		var path1 ="M 24,18 C 24.38,20.91 18.45,25.37 16,27 C 13,29 13.18,31.34 11,31 C 9.958,30.06 12.41,27.96 11,28 C 10,28 11.19,29.23 10,30 C 9,30 5.997,31 6,26 C 6,24 12,14 12,14 C 12,14 13.89,12.1 14,10.5 C 13.27,9.506 13.5,8.5 13.5,7.5 C 14.5,6.5 16.5,10 16.5,10 L 18.5,10 C 18.5,10 19.28,8.008 21,7 C 22,7 22,10 22,10";
+		var path2 ="M 9.5 25.5 A 0.5 0.5 0 1 1 8.5,25.5 A 0.5 0.5 0 1 1 9.5 25.5 z";
+		window.onload = function() {
+			var stage = new Kinetic.Stage({
+			 	container: 'container', 
+			  	width: 1000,
+			  	height: 1000
+			});
+		var layer = new Kinetic.Layer();
+		var group = new Kinetic.Group({
+		    draggable: true
+		});		
+		var p = 0;
+		var color;
+		var group1 = new Kinetic.Group({
+		});
+		for(var n = 0; n < 8; n++) 
+		{
+			for(var m = 0; m < 8; m++) 
+			{
+				if (p == 0)
+					color='#fff';
+				else
+					color='#000';
+				var box = new Kinetic.Rect({
+					x:n*70,
+					y:m*70,
+					width: 70,
+					height: 70,
+					stroke: '#555',
+					strokeWidth: 1,
+					fill: color,
+				});
+				group1.add(box);
+				p=(p+1)%2;
+			}
+			p=(p+1)%2;
+		}
+		layer.add (group1);
+		var shape = new Kinetic.Path({
+			    x: 60,
+			    y: 480,
+			    data: path,
+			    fill: '#ccc',
+			    stroke: '#555',
+				strokeWidth: 1,
+			    scale: { x:2, y:2 },
+			});
+		var shape1 = new Kinetic.Path({
+			    x: 60,
+			    y: 480,
+			    data: path1,
+			    fill: '#ccc',
+			    stroke: '#555',
+			    strokeWidth: 1, 
+			    scale: { x:2, y:2 },
+			});
+		var shape2 = new Kinetic.Path({
+			    x: 60,
+			    y: 480,
+			    data: path2,
+			    fill: '#ccc',
+			    stroke: '#555',
+			    strokeWidth: 1, 
+			    scale: { x:2, y:2 },
+			});
+		group.add(shape);
+		group.add(shape1);
+		group.add(shape2);
+		layer.add(group);
+	    stage.add(layer);
+	}
+	</script>
+</head>
+	<div id="container">
+	</div>
+</html>
