@@ -1,0 +1,12 @@
+#text{
+border-radius: 20px 20px 20px 20px;
+position:relative;
+height:auto;
+width: 95%;
+margin: 20px;
+margin-left: 15px;
+background: #bbb;
+font-family: Symbol;
+text-align: center;
+font-size: 30px;
+}
