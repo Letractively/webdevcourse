@@ -1,0 +1,144 @@
+<html>
+<head>
+	<script src="kinetic-v4.0.1.js"></script>
+	<script>
+	//var mCur;
+	document.onmousemove = function(e){
+		var mCur = mousePageXY(0); 
+		window.status = "X:"+mCur.x+" - Y:"+mCur.y;
+	};
+		function getRandomInt(min, max)
+	   {
+	     return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+		function gRInt(m)
+	   {
+	     return m+getRandomInt(0, 7)*70;
+		}
+		function GETchessboard()
+		{
+			var group = new Kinetic.Group({x:100,y:100});
+			var i,j,p=1,n,m,c;
+			for(i=0;i<8;i++)
+			{
+				for(j=0;j<8;j++)
+				{
+					n=i*70;
+					m=j*70;
+					if(p)
+						c='#faf0e6';
+					else
+						c='#442d25';
+					var box=new Kinetic.Rect(
+					{width:68.5,
+					height:68.5,
+					x:n,
+					y:m,
+					fill: c,
+					stroke: "black",
+					strokeWidth: 1,});
+					group.add(box);
+					p=(p+1)%2;
+				}
+				p=(p+1)%2;
+			}
+			return group;
+		}
+		function mousePageXY(e)
+		{
+		  var x = 0, y = 0;
+
+		  if (!e) e = window.event;
+
+		  if (e.pageX || e.pageY)
+		  {
+			 x = e.pageX;
+			 y = e.pageY;
+		  }
+		  else if (e.clientX || e.clientY)
+		  {
+			 x = e.clientX + 
+				(document.documentElement.scrollLeft || document.body.scrollLeft) - 
+				document.documentElement.clientLeft;
+			 y = e.clientY + 
+				(document.documentElement.scrollTop || document.body.scrollTop) - 
+				document.documentElement.clientTop;
+		  }
+
+		  return {"x":x, "y":y};
+		}
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		window.onload = function() 
+		{
+			var stage = new Kinetic.Stage({
+			 	container: 'container', 
+			  	width: 1000,
+			  	height: 1000
+			});
+			var layer1 = new Kinetic.Layer();
+			layer1.add(GETchessboard());
+	      stage.add(layer1);
+			var layer = new Kinetic.Layer();
+			var path= new Array();
+			path.push("M 12,36 L 12,32 L 33,32 L 33,36 L 12,36 z ");
+			path.push("M 11,14 L 11,9 L 15,9 L 15,11 L 20,11 L 20,9 L 25,9 L 25,11 L 30,11 L 30,9 L 34,9 L 34,14");
+			path.push("M 34,14 L 31,17 L 14,17 L 11,14");
+			path.push("M 31,17 L 31,29.5 L 14,29.5 L 14,17");
+			path.push("M 31,29.5 L 32.5,32 L 12.5,32 L 14,29.5");
+			path.push("M 11,14 L 34,14" );
+			var group = new Kinetic.Group({ draggable: true ,scale: { x:1.5, y:1.8 },x:gRInt(100),y:gRInt(100)});
+			for(var n = 0; n < 6; n++)
+			{
+				var obj=new Kinetic.Path({
+				x:0.5,
+				y:-3,
+				data: path[n],
+				fill: '#4c3c18',
+				stroke: '#cfb53b',
+				strokeWidth: 1,
+				});
+				group.add(obj);
+			}
+			var kx=0,ky=0;
+			/*group.on("mouseover", function() {
+				document.body.style.cursor = "pointer";
+			});
+			group.on("mouseout", function() {
+				document.body.style.cursor = "default";
+			});*/
+			group.on("dragstart", function() 
+			{
+					kx=group.getX();
+					ky=group.getY();
+					window.status = "X:"+kx+"  Y:"+ky;
+			});
+			group.on("dragend", function() 
+			{
+				var p1=group.getX(),p2=group.getY();
+				if((p1<=60)||(p1>=620)||(p2<=60)||(p2>=620))
+					{
+						p1=(Math.floor(Math.abs((kx-65)/70)))*70+100;
+						p2=(Math.floor(Math.abs((ky-60)/70)))*70+100;
+					}
+				else
+				{
+					p1=(Math.floor(Math.abs((p1-65)/70)))*70+100;
+					p2=(Math.floor(Math.abs((p2-60)/70)))*70+100;
+				}
+				group.transitionTo({
+					x: p1,
+					y: p2,
+					duration: 0.3
+				});
+			});
+			layer.add(group);
+	      stage.add(layer);
+		}
+		
+	</script>
+</head>
+
+	<body onmousedown="return false;">
+		<div id="container"/>
+	</body>
+</html>
