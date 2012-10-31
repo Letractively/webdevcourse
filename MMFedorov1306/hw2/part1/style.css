@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+#f-one {
+	background: #999;
+	border-radius: 5px;
+}
+body {
+	color: black;
+	font-size: 15px;
+	font-family: Verdana;
+}
+
+h1 {
+	font-size: 30px;
+}
+p::first-letter { /*Good*/
+	font-size: 10px;
+	color: red;
+}
+p::first-letter { /*Good*/
+	font-size: 30px;
+	color: red;
+}
+.spsk {
+	font-size: 50px;
+	color: gray;
+	
+}
+#newcolor2 { /*Good*/
+	background: yellow !important;;
+}
+#newcolor1 { /*Good*/
+	background: red;
+}
+
+/*body {
+	position:relative;
+	height:100%;
+	background: #999;
+}*/
+.background {
+	overflow:hidden;
+	position: fixed;
+	top: "0px";
+	left: "0px";
+	width: "100%";
+	height: "100%";
+	z-index: -1;
+}
+.header {
+	font-family: Verdana;
+}
