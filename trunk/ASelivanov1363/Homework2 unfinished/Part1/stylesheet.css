@@ -1,0 +1,26 @@
+body {
+	color: black;
+	font-size: 15px;
+	font-family: Comic Sans MS; 
+}
+a 
+{
+	background-color: #FFEBCD;
+	color: #00BFFF;
+	font-family: Courier; 
+}
+a:hover 
+{
+	background-color: #F0F8FF;
+	color: #191970;
+}
+h1
+{
+	font-size: 30px;
+}
+p::first-letter 
+{
+	font-size: 10px;
+}
+
+
