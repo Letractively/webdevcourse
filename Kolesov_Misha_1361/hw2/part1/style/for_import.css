@@ -1,0 +1,12 @@
+﻿h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size:200%;
+}
+
+P:first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color: red;
+}
