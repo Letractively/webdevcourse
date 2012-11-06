@@ -1,0 +1,33 @@
+﻿<html>
+<head>
+    <title>Home Work N3</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script text="javascript">
+        function toSnork(){
+            if (document.getElementById("go").value == "В гости, в гости!!!") {
+                document.getElementById("go").value = "Уйти :(";
+                document.getElementById("guest").style.left = "300px"; 
+            } else {
+                document.getElementById("go").value = "В гости, в гости!!!"
+                document.getElementById("guest").style.left = "20px";
+            }
+        }
+        function helloWorld() {
+            alert("Привет, мир!")
+        }
+    </script>
+</head>
+
+<body>
+<div id="main">
+    <input type ="button" value="Привер, Мир!" onClick="helloWorld()"></input>
+    <input id="go" type ="button" value="В гости, в гости!!!" onClick="toSnork()"></input><br><br><br><br>
+    <div id="guest">
+        <img width="200" height="150" src="img/1.jpg">
+    </div>
+    <div id="home">
+        <img width="200" height="150" src="img/2.jpg">
+    </div>
+</div>
+</body>
+</html>
